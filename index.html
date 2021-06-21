@@ -8,46 +8,66 @@
         <link href='css/xeAnim.css' rel='stylesheet'>
         <title>Xenonyx</title>
     </head>
-    <body class='bg-secondary'>
-        <div class='bg-dark text-white p-5'>
+    <body class='bg-dark'>
+        <div class='display-6 text-success bg-dark p-1' id='console'>
+            ><br>
+            >
+        </div>
+        <div class='text-white p-4 d-none' id='main'>
             <img class='rounded float-end img-thumbnail' src='img/xe.png' id='xe' width='150px' height='150px'>
-            <h1 class='display-1 text-primary'>Hallo !!!</h1>
+            <h1 class='display-1 text-primary'>Hallo!!!</h1>
             <h4>I am Xenonyx Blaze / Xenon.<br><br>
-                My real name is <span class='text-warning' id='name'  data-bs-toggle="tooltip" data-bs-placement="top" title="A lot of features on this site are inspired by ottomated"></span><br>
+                My real name is <span class='text-warning' id='name'></span><br>
                 I am a <span class='text-primary' id='age'></span> year old developer from India.<br>
                 I love programming, playing the guitar, playing video games, watching anime, making random art and occassionally reading books.
             <br><br>
-            Currently I am proficient in using Python but I will soon also master other programming languages like C++, Java, etc.<br>
-            I am also highly skilled in website designing from <span class='text-muted' data-bs-toggle="tooltip" data-bs-placement="top" title="I don't like using templates. Also goes for most of my projects"><u>scratch</u></span> using HTML, CSS, JavaScript, Bootstrap<br><br>
+            Currently I am proficient in using <a style='cursor:pointer;' class='text-warning' data-bs-toggle="modal" data-bs-target="#pyProjs">Python</a> but I will soon also master other programming languages like C++, Java, etc.<br>
+            I am also highly skilled in website designing using HTML/CSS/JavaScript/Bootstrap</h4>
             <div class='card w-50'>
                 <div class='card-header text-dark'>
                     Find Me
                 </div>
                 <div class='card-body text-dark'>
                     <h5 class='card-subtitle mb-2 text-muted'>Contact me on different places on the internet :)</h5>
-                    <button class='btn btn-outline-primary'>Mail</button>
-                    <button class='btn btn-outline-primary'>Github</button>
-                    <button class='btn btn-outline-primary'>Discord</button>
-                    <button class='btn btn-outline-primary' data-toggle="modal" data-target="#fuckutwitter">Twitter</button>
+                    <a class='btn btn-outline-primary' href='mailto:aarav@gulag2.heliohost.org'>Mail</a>
+                    <a class='btn btn-outline-primary' href='https://www.github.com/XenonyxBlaze/'>Github</a>
+                    <a class='btn btn-outline-primary' href='https://www.discord.gg/NmAHVje'>Discord Server</a>
+                    <button type='button' class='btn btn-outline-primary' data-bs-toggle="modal" data-bs-target="#fuckutwitter">Twitter</button>
                 </div>
             </div>
-            <br>
-            Here are some of my projects that I have worked on:</h4>
             
         </div>
-        
+        <!--
+
         <div class='bg-white text-dark p-3'>
             <img class='float-start mx-2' src='https://gulag2.heliohost.org/img/Gulag.png'>
             <h3 class='display-2 text-primary'><b>GULAG 2.0</b></h3>
             <h4 class='mx-2'>GULAG 2.0 is a GUI based MySQL application developped in python using the tKinter framework, and MySQL connector. It was developped because I was tired of writing long commands for simple MySQL querries so I created a graphical interface to make it easy.</h4>
         </div>
+
+        -->
+        
         
 
 
-        <div>
-
+        <div class="modal fade" tabindex="-1" id='fuckutwitter' aria-labelledby="badtwit" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id='badtwit'>Twitter BAD >:(</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Here's a video on why it's bad: </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
         </div>
         <script type="text/javascript" src="js/info.js"></script>
+        <script type="text/javascript" src="js/start.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
         <script>
             var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
