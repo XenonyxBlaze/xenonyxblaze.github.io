@@ -4,6 +4,7 @@
 let mainEl = document.getElementById('main')
 
 let consoleEl = document.getElementById('console');
+consoleEl.style.backgroundColor = 'rgb(0,0,0)'
 
 let comm1 = "               >console.log(\"Hello World\");\n>console.log(\"Welcome to my site\");".split("");
 
