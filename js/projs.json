@@ -1,0 +1,33 @@
+{
+    "pyProjects":[
+        {
+            "name":"GULAG 2.0",
+            "desc":"GULAG 2.0 is a GUI based MySQL interface created using the tKinter framework and MySQL connector as my grade 12 computer science project. It was created to provide an easier way to interact with MySQL and remove the usage of commands.",
+            "git":"https://github.com/XenonyxBlaze/GULAG_2.0/",
+            "hasWeb": true,
+            "web":"projects/gulag-website/"
+        },
+        {
+            "name":"CoinSeed Bot",
+            "desc":"Discord chat bot to handle server currency system",
+            "git":"https://github.com/aryanxxvii/CoinSeed-Bot",
+            "hasWeb": false
+        }
+    ],
+    "webProjects":[
+        {
+            "name":"Portfolio",
+            "desc":"You are looking at it. This website was created using this stack",
+            "git":"https://github.com/XenonyxBlaze/portfolio/",
+            "hasWeb":true,
+            "web":""
+        },
+        {
+            "name":"BluSky Launcher website",
+            "desc":"A news website to display updates on the bluesky launcher",
+            "git":"https://github.com/XenonyxBlaze/bluesky-website/",
+            "hasWeb":true,
+            "web":"projects/bluesky-website/"
+        }
+    ]
+}
